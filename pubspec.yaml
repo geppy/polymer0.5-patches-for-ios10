@@ -1,0 +1,14 @@
+name: polymer_dart_ios10
+description: Polymer.dart 0.16 fixes for iOS 10. 
+dependencies:
+  browser: any
+  core_elements: ">=0.7.0 <0.8.0"
+  paper_elements: ">=0.7.0 <0.8.0"
+  polymer: ">=0.16.0 <0.17.0"
+  web_components: any
+  html5lib: any
+dependency_overrides:
+  web_components: ">= 0.12.3"
+transformers:
+- polymer:
+    enty_points: web/index.html
